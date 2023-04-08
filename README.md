@@ -1,16 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Starter
+
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Packages included
-- Tailwindcss
-- Next SEO
+
+- [TailwindCSS](https://tailwindcss.com/)
+- [Next SEO](https://github.com/garmeeh/next-seo)
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+Run the development server
+
+```bash
 yarn dev
 ```
 
@@ -18,9 +25,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Font optimisation with TailwindCSS
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization#with-tailwind-css) with TailwindCSS to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
