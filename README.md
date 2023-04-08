@@ -25,7 +25,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Font optimisation with TailwindCSS
+This project comes with a default module path alias `@`, for example you can do the following
+
+```tsx
+import MyComponent from '@/components/MyComponent'
+```
+
+To learn more see [Absolute Imports and Module path aliases](https://nextjs.org/docs/advanced-features/module-path-aliases)
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization#with-tailwind-css) with TailwindCSS to automatically optimize and load Inter, a custom Google Font.
 
